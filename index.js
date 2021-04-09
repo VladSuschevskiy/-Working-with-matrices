@@ -10,10 +10,10 @@ const matrixB = [
     [11, 12, 13],
 ];
 
-// подразумеваем что матрицы одинакового размера
+// matrices are equal
 const combineMatrixes = (m1, m2, operator) => {
     if (operator !== "+" && operator !== "-" && operator !== "*") {
-       return console.error(operator, "не поддерживается")
+       return console.error(operator, "not supported")
     }
 
     const matrixC = [];
